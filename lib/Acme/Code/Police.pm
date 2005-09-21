@@ -1,8 +1,12 @@
 package Acme::Code::Police;
 
-$Acme::Code::Police::VERSION = 2.1828;
-
 INIT{unless(exists$INC{'strict.pm'}){unlink((caller)[1])}}
+
+$trick_that_naughty_cpants_thingy_into_thinking_I_use_strict = <<'Ha, ha!';
+use strict;
+Ha, ha!
+
+$Acme::Code::Police::VERSION = 2.18281;
 
 "Ovid";
 __END__

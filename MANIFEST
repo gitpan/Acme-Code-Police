@@ -1,6 +1,9 @@
 Changes
-MANIFEST
 Makefile.PL
-Police.pm
+MANIFEST
+lib/Acme/Code/Police.pm
 README
-test.pl
+t/load.t
+t/pod-coverage.t
+t/pod.t
+META.yml                                 Module meta-data (added by MakeMaker)
